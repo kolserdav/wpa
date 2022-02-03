@@ -1,0 +1,23 @@
+{
+  "name": "wpa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kolserdav/wpa.git",
+  "author": "kolserdav <serega12101983@gmail.com>",
+  "license": "MIT",
+  "prisma": {
+    "schema": "orm/schema.prisma"
+  },
+  "scripts": {
+    "dev": "npm run dev --prefix app",
+    "pull": "prisma db pull",
+    "generate": "prisma generate"
+  },
+  "devDependencies": {
+    "prisma": "^3.9.1"
+  },
+  "dependencies": {
+    "@prisma/client": "3.9.1",
+    "axios": "^0.25.0"
+  }
+}
